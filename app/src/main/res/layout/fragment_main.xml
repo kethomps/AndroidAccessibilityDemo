@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginTop="@dimen/toolbar_to_headline"
             android:contentDescription="@string/main_activity_tv"
             android:text="@string/main_activity_tv"
             android:textSize="24sp" />
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginTop="@dimen/headline_to_button"
             android:text="@string/default_access_btn_title" />
 
         <Button
