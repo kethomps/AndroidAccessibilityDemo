@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Main application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Color Palette -->
+        <!-- http://www.google.com/design/spec/style/color.html#color-color-palette -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#1A237E</item>
+        <item name="colorAccent">#FFD54F</item>
+    </style>
+
+</resources>
