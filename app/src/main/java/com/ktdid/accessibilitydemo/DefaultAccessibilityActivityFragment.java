@@ -1,6 +1,7 @@
 package com.ktdid.accessibilitydemo;
 
 import android.support.v4.app.Fragment;
+import android.support.design.widget.TextInputLayout;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +18,8 @@ public class DefaultAccessibilityActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_default_accessibility, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_default_accessibility, container, false);
+        TextInputLayout textInputLayout = (TextInputLayout) rootView.findViewById(R.id.text_input_layout);
+        return rootView;
     }
 }

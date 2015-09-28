@@ -6,12 +6,14 @@
 
     <!-- Home Screen -->
     <string name="main_activity_tv">Pick which screen to view</string>
-    <string name="default_access_btn_title">Launch Default Activity</string>
+    <string name="default_access_btn_title">Launch Activity With Defaults</string>
     <string name="with_access_btn_title">Launch Activity With Accessibility</string>
     <string name="learn_more_btn">Learn more about accessibility</string>
 
     <!-- Default Screen -->
     <string name="title_activity_default_accessibility">Default Accessibility</string>
+    <string name="email_hint_et">Email</string>
+    <string name="pw_hint_et">Email</string>
 
     <!-- With Accessibility Screen -->
     <string name="title_activity_with_access">With Accessibility</string>

@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Main application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="KTAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
 
