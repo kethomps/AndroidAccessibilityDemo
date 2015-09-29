@@ -21,7 +21,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/toolbar_to_headline"
-            android:contentDescription="@string/main_activity_tv"
             android:text="@string/quote_tv"
             android:textSize="@dimen/headline_font_size" />
 

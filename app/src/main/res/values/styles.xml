@@ -14,7 +14,7 @@
     </style>
 
     <style name="ButtonTheme" parent="Base.Widget.AppCompat.Button">
-        <item name="android:backgroundTint">#304FFE</item>
+        <item name="android:backgroundTint">#3D5AFE</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
 </resources>
