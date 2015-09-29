@@ -23,7 +23,7 @@
             android:layout_marginTop="@dimen/toolbar_to_headline"
             android:contentDescription="@string/main_activity_tv"
             android:text="@string/quote_tv"
-            android:textSize="@dimen/headline_font_size"/>
+            android:textSize="@dimen/headline_font_size" />
 
         <TextView
             android:id="@+id/welcome_tv"
@@ -60,4 +60,12 @@
             android:text="@string/learn_more_btn" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/together_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/androidtogether" />
 </RelativeLayout>

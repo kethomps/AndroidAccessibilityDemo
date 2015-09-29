@@ -13,9 +13,8 @@
 
     <!-- Default Screen -->
     <string name="title_activity_default_accessibility">Default Accessibility</string>
-    <string name="color_btn">Choose a color</string>
-    <string name="checkbox_on_tv">on</string>
-    <string name="checkbox_off_tv">off</string>
+    <string name="login_btn">Login</string>
+    <string name="remember_me_tv">Remember me</string>
     <string name="checkbox">checkbox</string>
     <string name="email_hint_et">Email</string>
     <string name="pw_hint_et">Password</string>

@@ -1,6 +1,7 @@
 package com.ktdid.accessibilitydemo;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 /**
- * A placeholder fragment containing a simple view.
+ * Home screen fragment
  */
 public class MainActivityFragment extends Fragment {
 
@@ -37,6 +38,13 @@ public class MainActivityFragment extends Fragment {
             }
         });
 
+        Button learnMoreBtn = (Button) rootView.findViewById(R.id.learn_more_button);
+        learnMoreBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                launchLearnMore();
+            }
+        });
         return rootView;
     }
 
@@ -48,5 +56,14 @@ public class MainActivityFragment extends Fragment {
     public void launchWithAccessScreen() {
         Intent intent = new Intent(getActivity(), WithAccessibilityActivity.class);
         startActivity(intent);
+    }
+
+    public void launchLearnMore() {
+        //http://developer.android.com/design/patterns/accessibility.html
+        Uri webpage = Uri.parse("http://developer.android.com/design/patterns/accessibility.html");
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 }
