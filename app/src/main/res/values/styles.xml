@@ -4,6 +4,7 @@
     <style name="KTAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
+        <item name="android:buttonStyle">@style/ButtonTheme</item>
 
         <!-- Color Palette -->
         <!-- http://www.google.com/design/spec/style/color.html#color-color-palette -->
@@ -12,4 +13,8 @@
         <item name="colorAccent">#FFD54F</item>
     </style>
 
+    <style name="ButtonTheme" parent="Base.Widget.AppCompat.Button">
+        <item name="android:backgroundTint">#304FFE</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>

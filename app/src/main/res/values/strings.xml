@@ -9,11 +9,16 @@
     <string name="default_access_btn_title">Launch Activity With Defaults</string>
     <string name="with_access_btn_title">Launch Activity With Accessibility</string>
     <string name="learn_more_btn">Learn more about accessibility</string>
+    <string name="quote_tv">Making Android for Everybody</string>
 
     <!-- Default Screen -->
     <string name="title_activity_default_accessibility">Default Accessibility</string>
+    <string name="color_btn">Choose a color</string>
+    <string name="checkbox_on_tv">on</string>
+    <string name="checkbox_off_tv">off</string>
+    <string name="checkbox">checkbox</string>
     <string name="email_hint_et">Email</string>
-    <string name="pw_hint_et">Email</string>
+    <string name="pw_hint_et">Password</string>
 
     <!-- With Accessibility Screen -->
     <string name="title_activity_with_access">With Accessibility</string>
