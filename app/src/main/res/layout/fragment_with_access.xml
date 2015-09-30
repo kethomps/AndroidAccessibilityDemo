@@ -76,7 +76,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:text="@string/login_btn"
-            android:textColor="#F5F5F5" />
+            android:textColor="#F5F5F5"
+            android:nextFocusUp="@id/checkbox_tv"/>
 
         <ImageView
             android:id="@+id/rainbow_pixel_image"
