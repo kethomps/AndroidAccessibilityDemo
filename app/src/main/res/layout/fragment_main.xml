@@ -56,7 +56,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/button_margin"
-            android:text="@string/learn_more_btn" />
+            android:text="@string/learn_more_btn"
+            android:contentDescription="@string/learn_more_btn_cd"/>
 
     </LinearLayout>
 

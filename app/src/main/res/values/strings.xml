@@ -23,6 +23,13 @@
     <string name="title_activity_with_access">With Accessibility</string>
 
     <!-- Accessibility Content Descriptions -->
-
-
+    <string name="title_activity_with_access_cd">With Accessibility Header</string>
+    <string name="checkbox_cd">Remember me</string>
+    <string name="remember_me_cd">If you want us to remember you, please make sure checkbox is on</string>
+    <string name="remember_me_on_cd">Remember me checkbox is on</string>
+    <string name="remember_me_off_cd">Remember me checkbox is off</string>
+    <string name="email_et_cd">Please enter your email</string>
+    <string name="pw_et_cd">Please enter your password</string>
+    <string name="learn_more_btn_cd">Learn more about accessibility. Go to Android Developer website</string>
+    <string name="image_btn_cd">This image is irrelevant to your experience</string>
 </resources>
